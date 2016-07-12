@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical" >
+
+        <com.yao.signin.PullDownList
+            android:id="@+id/pullDownList1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.yao.signin.PullDownList>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="349dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="83dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:checked="false"
+                android:text="按时间排序"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:checked="false"
+                android:text="按学号排序"
+                android:textSize="13dp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioGroup"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="签到码为:"
+                android:textColor="#007bfe"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/et_t_key"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:hint="在此输入签到码："
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioGroup"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/settings_exit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/settings_exit_button_marginBottom"
+            android:layout_marginEnd="@dimen/settings_exit_button_marginRight"
+            android:layout_marginLeft="@dimen/settings_exit_button_marginLeft"
+            android:layout_marginRight="@dimen/settings_exit_button_marginRight"
+            android:layout_marginStart="@dimen/settings_exit_button_marginLeft"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/settings_exit_button_bg_selector"
+            android:clickable="true"
+            android:gravity="center_horizontal"
+            android:text="发起签到"
+            android:textColor="@color/white"
+            android:textSize="@dimen/settings_exit_button_textSize" />
+    </LinearLayout>
+
+</LinearLayout>

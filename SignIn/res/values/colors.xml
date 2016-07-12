@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+     <!-- ActionBar -->
+    <color name="app_common_actionbar_bg">#3190e8</color>    <!-- ActionBar背景颜色 -->
+    <color name="white">#ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="black">#000000</color>
+    <color name="gray">#cccccc</color>
+    <color name="blue">#0000ff</color>
+    
+</resources>

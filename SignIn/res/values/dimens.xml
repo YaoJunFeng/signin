@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    
+      <!-- 公共ActionBar -->
+    <dimen name="app_coomon_actionbar_paddingLeft">10dip</dimen>
+    <dimen name="app_coomon_actionbar_paddingRight">10dip</dimen>
+    <dimen name="app_coomon_actionbar_leftrelativelayout_paddingTop">12dip</dimen>
+    <dimen name="app_coomon_actionbar_leftrelativelayout_paddingBottom">12dip</dimen>
+    <dimen name="app_common_actionbar_leftTextSize">18sp</dimen>
+    <dimen name="app_common_actionbar_centerTextSize">20sp</dimen>
+    <dimen name="app_common_actionbar_rightTextSize">18sp</dimen>
+    
+    <dimen name="settings_marginTop">10dip</dimen>
+	<dimen name="settings_list_item_textSize">18sp</dimen>
+	<dimen name="settings_exit_button_textSize">20sp</dimen>
+	<dimen name="settings_exit_button_marginLeft">50dip</dimen>
+	<dimen name="settings_exit_button_marginRight">50dip</dimen>
+	<dimen name="settings_exit_button_marginTop">25dip</dimen>
+	<dimen name="settings_exit_button_marginBottom">25dip</dimen>
+	
+	 <!-- 下拉刷新头部底部布局 -->
+    <dimen name="xlistview_header_height">60dp</dimen>
+
+</resources>

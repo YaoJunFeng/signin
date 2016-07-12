@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 
+	我的Fragment退出登录按钮未被点击时背景
+	
+	@author 麦灿标
+ -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <corners
+        android:radius="5dip"/>
+	<padding
+	    android:top="8dip"
+	    android:bottom="8dip"/>
+	<solid
+	    android:color="#18b4ed"/>
+</shape>

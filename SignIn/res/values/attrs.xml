@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PullDownList">
+        <attr name="loadingMoreTextColor" format="color" />
+        <attr name="loadingMoreTextSize" format="dimension" />
+        <attr name="loadingMoreBKColor" format="reference|color" />
+        <attr name="refreshTextColor" format="color" />
+        <attr name="refreshTextSize" format="dimension" />
+        <attr name="refreshTimeColor" format="color" />
+        <attr name="refreshTimeSize" format="dimension" />
+        <attr name="refreshArrowUp" format="reference" />
+        <attr name="refreshArrowDown" format="reference" />
+    </declare-styleable>
+
+</resources>
